@@ -47,3 +47,21 @@ Content-Length: 52
 [2020-08-06 15:58:51,061] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
 [2020-08-06 15:58:51,083] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
 [2020-08-06 15:58:51,083] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2020-08-06 16:07:25,606] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 58
+[2020-08-06 16:07:25,606] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 58
+[2020-08-06 16:07:25,609] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"shutdown","params":null}
+[2020-08-06 16:07:25,609] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"shutdown","params":null}
+[2020-08-06 16:07:25,631] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":1}
+[2020-08-06 16:07:25,631] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":1}
+[2020-08-06 16:07:25,631] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":1}
+[2020-08-06 16:07:25,631] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":1}
