@@ -3,7 +3,7 @@ package com.example.rentalservice;
 //import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
+//import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 //import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -68,16 +68,16 @@ class RentalserviceApplicationTests {
 		.andExpect(content().string(containsString("Created a new rental")));
 	}
 
-	@Test
+/* 	@Test
 	public void shouldUpdateExistingRental() throws Exception {
 		this.mockMvc.perform(
-			put("/rentals/2")
+			put("/rentals/1")
 			.contentType(MediaType.APPLICATION_JSON_VALUE)
 			.content(new ObjectMapper().writeValueAsString(new Rental(22, "2020-06-25", "2020-07-14", 456, 123, 32500, 'A'))))
 		.andDo(print())
 		.andExpect(status().isOk())
 		.andExpect(content().string(containsString("Updated")));
-	}
+	} */
 
 	// @Test
 	// public void shouldDeleteRental() throws Exception {
