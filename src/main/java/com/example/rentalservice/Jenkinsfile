@@ -39,6 +39,7 @@ pipeline {
                 echo 'Run the command>>> docker build -t equipment-rental-service .'
                 echo 'Run the command>>> docker run -d -p 8081:8081 --name equipment-rental-service equipment-rental-service'
             }
+            
         }
     }
 }
